@@ -1,3 +1,4 @@
 guard :librarian do
-  watch /chef-repo/cookbooks-sources/.+/
+  watch(%r{^chef-repo/cookbooks-sources/.+$})
+  watch(%r{^chef-repo/Cheffile$})
 end
