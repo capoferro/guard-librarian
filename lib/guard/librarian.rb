@@ -16,7 +16,8 @@ module Guard
     private
 
     def install_cookbooks
-      say `cd chef-repo; librarian-chef install`
+      `cd chef-repo; librarian-chef install`
+      say 'Install complete.'
     end
 
     def say msg
