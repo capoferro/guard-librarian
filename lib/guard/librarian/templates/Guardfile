@@ -1,0 +1,3 @@
+guard :librarian do
+  watch /chef-repo/cookbooks-sources/.+/
+end
